@@ -21,8 +21,6 @@
     - [jaeger](https://github.com/jaegertracing/jaeger)
     - docker run -d --name jaeger -p6831:6831/udp -p16686:16686 jaegertracing/all-in-one:latest
     - http://127.0.0.1:16686/
-- 限流、熔断、降级：`sentinel`
-    - [sentinel-golang](https://github.com/alibaba/sentinel-golang)
 - api网关：`kong`
     - [kong](https://github.com/Kong/kong)
         1. 依赖postgresql(docker run -d --name kong-db -e 5432:5432 -e "POSTGRES_USER=kong" -e "POSTGRES_DB=kong" -e "POSTGRES_PASSWORD=kong" postgres:12)
