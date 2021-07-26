@@ -1,0 +1,15 @@
+peewee
+pymysql
+passlib
+grpcio
+grpcio-tools
+protobuf
+loguru
+python-consul2
+redis
+dnspython
+nacos-sdk-python
+rocketmq-client-python
+jaeger-client
+ratelimit
+pybreaker

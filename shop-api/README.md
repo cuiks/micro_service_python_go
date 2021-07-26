@@ -1,0 +1,25 @@
+## 商城上层请求`http`接口
+
+### 技术栈
+- web框架：`gin`
+    - [gin](https://github.com/gin-gonic/gin)
+- 身份认证：`jwt`
+    - [jwt-go](https://github.com/dgrijalva/jwt-go)
+- 通信协议：`rpc`
+    - [grpc-go](https://github.com/grpc/grpc-go)
+- 配置文件：`viper`
+    - [viper](https://github.com/spf13/viper)
+- 日志模块：`zap`
+    - [zap](https://github.com/uber-go/zap)
+- 服务注册：`consul`
+    - [consul](https://github.com/hashicorp/consul/tree/main/api)
+- 缓存：`redis`
+    - [redis](https://github.com/go-redis/redis)
+- 配置中心：`Nacos-sdk-go`
+    - [Nacos-sdk-go](https://github.com/nacos-group/nacos-sdk-go)
+- 限流、熔断、降级：`sentinel`
+    - [sentinel-golang](https://github.com/alibaba/sentinel-golang)
+- 链路追踪：`jaeger-client-go`
+    - [jaeger-client-go](https://github.com/jaegertracing/jaeger-client-go)
+- 验证码：`base64Captcha`
+    - [base64Captcha](https://github.com/mojocn/base64Captcha)

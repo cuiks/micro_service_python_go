@@ -1,0 +1,30 @@
+{
+    "name": "order-srv", 
+    "tags": [
+        "python", 
+        "srv",
+        "order"
+    ], 
+    "mysql": {
+        "db": "mxshop_order_srv", 
+        "host": "127.0.0.1", 
+        "port": 3306, 
+        "user": "root", 
+        "password": "pwd123456"
+    }, 
+    "consul": {
+        "host": "127.0.0.1", 
+        "port": 8500
+    },
+    "redis":{
+        "host": "127.0.0.1",
+        "port": 6379,
+        "db": 0
+    },
+    "goods_srv": {
+        "name": "goods-srv"
+    },
+    "inventory_srv": {
+        "name": "inventory-srv"
+    }
+}
